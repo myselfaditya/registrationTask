@@ -1,0 +1,27 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+aside {
+    position: fixed;
+    top: 80px;
+    width: 240px;
+    z-index: 99;
+    background: #fff;
+    height: calc(100vh - 80px);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 4px 8px 10px rgb(0 0 0 / 15%);
+}
+
+#main {
+    margin-top: 80px;
+    margin-left: 240px;
+    padding: 30px;
+    height: calc(100vh - 80px);
+    overflow-y: auto;
+}
